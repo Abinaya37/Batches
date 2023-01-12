@@ -33,6 +33,8 @@ public class Meesho extends Utility_Files {
 		clickOnElement(login_Btn);
 		
 		screenshot("path\\meesho.png");
+		
+		driver.quit();
 
 	}
 
